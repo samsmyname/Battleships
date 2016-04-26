@@ -1,0 +1,10 @@
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\BattleshipsTests\bin\Debug\BattleshipsTests.dll
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\BattleshipsTests\bin\Debug\BattleshipsTests.pdb
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\BattleshipsTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\BattleshipsTests\bin\Debug\SwinGame.dll
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\BattleshipsTests\bin\Debug\WindowsApplication.exe
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\BattleshipsTests\bin\Debug\WindowsApplication.pdb
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\BattleshipsTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\BattleshipsTests\obj\Debug\BattleshipsTests.csprojResolveAssemblyReference.cache
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\BattleshipsTests\obj\Debug\BattleshipsTests.dll
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\BattleshipsTests\obj\Debug\BattleshipsTests.pdb

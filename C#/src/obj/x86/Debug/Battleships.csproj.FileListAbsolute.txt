@@ -1,0 +1,7 @@
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\src\bin\Debug\WindowsApplication.exe.config
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\src\obj\x86\Debug\Battleships.csprojResolveAssemblyReference.cache
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\src\bin\Debug\WindowsApplication.exe
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\src\bin\Debug\WindowsApplication.pdb
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\src\bin\Debug\SwinGame.dll
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\src\obj\x86\Debug\WindowsApplication.exe
+D:\Uni\DevelopmentProject1\Github\Battleships\C#\src\obj\x86\Debug\WindowsApplication.pdb

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{4A398D25-FC5C-4D42-A171-C17DDEC9508C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Battleships</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SwinGame">
+      <HintPath>..\lib\SwinGame.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DeploymentController.cs" />
+    <Compile Include="DiscoveryController.cs" />
+    <Compile Include="EndingGameController.cs" />
+    <Compile Include="GameController.cs" />
+    <Compile Include="GameLogic.cs" />
+    <Compile Include="GameResources.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="HighScoreController.cs" />
+    <Compile Include="MenuController.cs" />
+    <Compile Include="Model\AIHardPlayer.cs" />
+    <Compile Include="Model\AIMediumPlayer.cs" />
+    <Compile Include="Model\AIOption.cs" />
+    <Compile Include="Model\AIPlayer.cs" />
+    <Compile Include="Model\AttackResult.cs" />
+    <Compile Include="Model\BattleShipsGame.cs" />
+    <Compile Include="Model\Direction.cs" />
+    <Compile Include="Model\ISeaGrid.cs" />
+    <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\ResultOfAttack.cs" />
+    <Compile Include="Model\SeaGrid.cs" />
+    <Compile Include="Model\SeaGridAdapter.cs" />
+    <Compile Include="Model\Ship.cs" />
+    <Compile Include="Model\ShipName.cs" />
+    <Compile Include="Model\Tile.cs" />
+    <Compile Include="Model\TileView.cs" />
+    <Compile Include="UtilityFunctions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
