@@ -4,3 +4,4 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 
 src\Model\AIPlayer.cs(20,18): warning CS0660: 'AIPlayer.Location' defines operator == or operator != but does not override Object.Equals(object o)
 src\Model\AIPlayer.cs(20,18): warning CS0661: 'AIPlayer.Location' defines operator == or operator != but does not override Object.GetHashCode()
+src\DiscoveryController.cs(65,13): warning CS0219: The variable 'SPLASH_BOTTOM' is assigned but its value is never used
