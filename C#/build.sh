@@ -293,6 +293,14 @@ doCopyResources()
     copyWithoutSVN "${APP_PATH}/Resources" "${RESOURCE_DIR}"
 }
 
+doOtherStuff ()
+{
+	echo "	... Warming up the fusion reactor"
+	sleep 1
+	echo "  ... Praying for no compile errors"
+	sleep 1
+}
+
 
 if [ $CLEAN = "N" ]
 then
@@ -302,7 +310,7 @@ then
     fi
     
     echo "--------------------------------------------------"
-    echo "          Creating $GAME_NAME"
+    echo "          Creating Battleships"
     echo "          for $OS"
     echo "--------------------------------------------------"
     echo "  Running script from $FULL_APP_PATH"
@@ -321,6 +329,7 @@ then
     fi
     
     doCopyResources
+	doOtherStuff
 else
     CleanTmp
     rm -rf "${BIN_DIR}"
