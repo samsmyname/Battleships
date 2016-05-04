@@ -339,8 +339,10 @@ public static class GameController
 		}
 
 		UtilityFunctions.DrawAnimations();
+		
+		//Lowered to 30 frames per second to see the splash and explosion animations
 
-		SwinGame.RefreshScreen();
+		SwinGame.RefreshScreen(60);
 	}
 
 	/// <summary>
